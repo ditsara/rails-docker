@@ -1,0 +1,12 @@
+version: '3'
+services:
+  r26:
+    image: ditsara/rails-docker:2.6
+    build:
+      context: .
+      dockerfile: ruby26/Dockerfile
+  r26-dev:
+    image: ditsara/rails-docker:2.6-dev
+    build:
+      context: .
+      dockerfile: ruby26-dev/Dockerfile
