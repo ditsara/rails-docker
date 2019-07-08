@@ -1,4 +1,4 @@
-FROM ditsara/base:2.6
+FROM ditsara/rails-docker:2.6
 LABEL maintainer="Dan Itsara <dan@glazziq.com>"
 
 RUN apt-get install -y wget apt-transport-https libxss1 \
